@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heart Disease Prediction - Model Info</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+        }
+
+        h3 {
+            color: #333366;
+        }
+
+        p {
+            color: #555555;
+        }
+
+        pre {
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #333366;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555599;
+        }
+
+        /* Style for the back-to-main-page link */
+        a.back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #333366;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a.back-link:hover {
+            background-color: #555599;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Heart Disease Prediction Model</h3>
+<p>
+    Our model is designed to predict the presence of heart disease based on various features related to heart health. 
+    We utilize the Random Forest algorithm, which is a powerful ensemble learning method that combines multiple decision trees 
+    to produce a robust and accurate prediction model.
+</p>
+
+<h3>Model Performance Metrics</h3>
+<p>
+    <strong>Accuracy:</strong> 86.36%
+</p>
+<p>
+    <strong>Confusion Matrix:</strong>
+</p>
+<pre>
+[[26  6]
+ [ 3 31]]
+</pre>
+
+<p>
+    <strong>Classification Report:</strong>
+</p>
+<pre>
+              precision    recall  f1-score   support
+
+           0       0.90      0.81      0.85        32
+           1       0.84      0.91      0.87        34
+
+    accuracy                           0.86        66
+   macro avg       0.87      0.86      0.86        66
+weighted avg       0.87      0.86      0.86        66
+</pre>
+
+<!-- Link to go back to the main page (index.html) -->
+<a href="/" class="back-link">Back to Main Page</a>
+
+</body>
+</html>
